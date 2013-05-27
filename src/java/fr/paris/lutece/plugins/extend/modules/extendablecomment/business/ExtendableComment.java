@@ -10,14 +10,14 @@ import org.apache.commons.lang.StringUtils;
  */
 public class ExtendableComment implements IExtendableResource
 {
-    private String _strIdExtendableResource;
-    private String _strCommentedExtendableResourceType;
-    private String _strIdCommentedExtendableResource;
-
     /**
      * Resource type
      */
     public static final String RESOURCE_TYPE = "comment";
+
+    private String _strIdExtendableResource;
+    private String _strCommentedExtendableResourceType;
+    private String _strIdCommentedExtendableResource;
 
     /**
      * {@inheritDoc}
