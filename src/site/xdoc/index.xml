@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<properties>
+		<title>Module Extend Comment Rating</title>
+	</properties>
+	<body>
+		<section name="Module Extend Comment">
+			<subsection name="Introduction">
+				<p>
+					This module is used to allow users to rate comments
+				</p>
+			</subsection>
+		</section>
+	</body>
+</document>
