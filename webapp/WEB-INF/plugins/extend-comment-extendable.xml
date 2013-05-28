@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><plug-in>
 
     <!-- Plugin Informations -->
-    <name>extend-comment-rating</name>
+    <name>extend-comment-extendable</name>
     <class>fr.paris.lutece.plugins.extend.modules.extendablecomment.service.ExtendableCommentPlugin</class>
     <version>1.0.1</version>
     <description>module.extend.extendablecomment.module.description</description>
@@ -11,7 +11,7 @@
     <changes/>
     <user-guide/>
     <provider-url>http://lutece.paris.fr</provider-url>
-    <icon-url>images/admin/skin/plugins/extend/modules/comment/extend-comment-extendable.png</icon-url>
+    <icon-url>images/admin/skin/plugins/extend/modules/extendablecomment/extend-comment-extendable.png</icon-url>
     <copyright>Copyright 2001-2013 Mairie de Paris</copyright>
     <core-version-dependency>
         <min-core-version>4.0.0</min-core-version>
