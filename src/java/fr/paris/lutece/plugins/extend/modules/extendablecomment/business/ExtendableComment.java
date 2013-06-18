@@ -6,7 +6,7 @@ import org.apache.commons.lang.StringUtils;
 
 
 /**
- * CommentRating
+ * ExtendableComment
  */
 public class ExtendableComment implements IExtendableResource
 {
