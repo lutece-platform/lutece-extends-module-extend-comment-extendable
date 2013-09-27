@@ -3,7 +3,7 @@
     <!-- Plugin Informations -->
     <name>extend-comment-extendable</name>
     <class>fr.paris.lutece.plugins.extend.modules.extendablecomment.service.ExtendableCommentPlugin</class>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <description>module.extend.extendablecomment.module.description</description>
     <provider>module.extend.extendablecomment.module.provider</provider>
     <documentation/>
