@@ -6,6 +6,8 @@ import fr.paris.lutece.portal.service.resource.ExtendableResourceRemovalListener
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 
 /**
  * Class to remove extensions of comments when they are removed.
@@ -43,6 +45,26 @@ public class ExtendableResourceCommentRemovalListener implements ICommentListene
             ExtendableResourceRemovalListenerService.doRemoveResourceExtentions( ExtendableComment.RESOURCE_TYPE,
                     Integer.toString( nIdComment ) );
         }
+    }
+
+	@Override
+	public void createComment(String arg0, boolean arg1, HttpServletRequest arg2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+    @Override
+    public String checkComment( String comment, String uidUser )
+    {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String checkComment( String comment, String uidUser, String strResourceType, String strResourceId )
+    {
+        // TODO Auto-generated method stub
+        return null;
     }
 
 }
