@@ -3,6 +3,7 @@ package fr.paris.lutece.plugins.extend.modules.extendablecomment.service;
 import fr.paris.lutece.plugins.extend.modules.comment.service.ICommentListener;
 import fr.paris.lutece.plugins.extend.modules.extendablecomment.business.ExtendableComment;
 import fr.paris.lutece.portal.service.resource.ExtendableResourceRemovalListenerService;
+import fr.paris.lutece.portal.service.security.LuteceUser;
 
 import java.util.List;
 
@@ -65,6 +66,12 @@ public class ExtendableResourceCommentRemovalListener implements ICommentListene
     {
         // TODO Auto-generated method stub
         return null;
+    }
+
+    @Override
+    public boolean canComment( LuteceUser user, String strIdExtendableResource, String strExtendableResourceType )
+    {
+        return true;
     }
 
 }
