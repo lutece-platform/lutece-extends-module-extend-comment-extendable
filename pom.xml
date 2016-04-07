@@ -10,7 +10,7 @@
     <groupId>fr.paris.lutece.plugins</groupId>
     <artifactId>module-extend-comment-extendable</artifactId>
     <packaging>lutece-plugin</packaging>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>Lutece Extend Comment Extendable module</name>
 
     <repositories>
@@ -49,7 +49,7 @@
         <connection>scm:git:https://github.com/lutece-platform/lutece-extends-module-extend-comment-extendable.git</connection>
         <developerConnection>scm:git:https://github.com/lutece-platform/lutece-extends-module-extend-comment-extendable.git</developerConnection>
         <url>https://github.com/lutece-platform/lutece-extends-module-extend-comment-extendable.git</url>
-      <tag>lutece-extends-module-extend-comment-extendable-1.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
