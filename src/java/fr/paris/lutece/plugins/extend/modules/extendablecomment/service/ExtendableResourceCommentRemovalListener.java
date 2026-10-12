@@ -7,7 +7,7 @@ import fr.paris.lutece.portal.service.security.LuteceUser;
 
 import java.util.List;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 
 /**
@@ -22,7 +22,6 @@ public class ExtendableResourceCommentRemovalListener implements ICommentListene
     @Override
     public void createComment( String strIdExtendableResource, boolean bPublished )
     {
-        // We do nothing
     }
 
     /**
@@ -31,7 +30,6 @@ public class ExtendableResourceCommentRemovalListener implements ICommentListene
     @Override
     public void publishComment( String strIdExtendableResource, boolean bPublished )
     {
-        // We do nothing
     }
 
     /**
@@ -40,7 +38,6 @@ public class ExtendableResourceCommentRemovalListener implements ICommentListene
     @Override
     public void deleteComment( String strIdExtendableResource, List<Integer> listIdRemovedComment )
     {
-        // We remove extensions of the removed comment if any
         for ( int nIdComment : listIdRemovedComment )
         {
             ExtendableResourceRemovalListenerService.doRemoveResourceExtentions( ExtendableComment.RESOURCE_TYPE,
@@ -48,26 +45,35 @@ public class ExtendableResourceCommentRemovalListener implements ICommentListene
         }
     }
 
-	@Override
-	public void createComment(String arg0, boolean arg1, HttpServletRequest arg2) {
-		// TODO Auto-generated method stub
-		
-	}
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void createComment( String strIdExtendableResource, boolean bPublished, HttpServletRequest request )
+    {
+    }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String checkComment( String comment, String uidUser )
     {
-        // TODO Auto-generated method stub
         return null;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public String checkComment( String comment, String uidUser, String strResourceType, String strResourceId )
     {
-        // TODO Auto-generated method stub
         return null;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public boolean canComment( LuteceUser user, String strIdExtendableResource, String strExtendableResourceType )
     {

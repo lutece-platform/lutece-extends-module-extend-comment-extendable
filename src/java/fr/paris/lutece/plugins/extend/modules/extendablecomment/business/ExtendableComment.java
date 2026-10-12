@@ -2,7 +2,7 @@ package fr.paris.lutece.plugins.extend.modules.extendablecomment.business;
 
 import fr.paris.lutece.portal.service.resource.IExtendableResource;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 
 /**
